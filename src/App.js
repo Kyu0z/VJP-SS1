@@ -1,8 +1,8 @@
 import "./App.css";
-import "./index.css";
 import Sidebar from "./components/SideBar/Sidebarr";
-import FormSignIn from "../../../Trainning/Spotifyy/src/components/Form/FormSignIn";
+import FormSignIn from "./components/Form/FormSignIn";
 import { toast } from "react-toastify";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   // const notify = () => toast("Wow so easy!");
@@ -11,6 +11,7 @@ function App() {
       {/* <Sidebar></Sidebar> */}
       <FormSignIn></FormSignIn>;
       {/* <button onClick={notify}>Notify!</button> */}
+      {/* <Dashboard></Dashboard> */}
     </>
   );
 }
